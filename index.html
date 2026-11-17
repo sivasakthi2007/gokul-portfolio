@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Character encoding and responsive viewport settings -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Personal Portfolio of Gokul Bharani G - Computer Science Engineering Student">
+  <title>Gokul Bharani G | Portfolio</title>
+  
+  <!-- Link to external CSS stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ========================================================= -->
+  <!-- NAVIGATION BAR (Fixed at the top of the webpage)         -->
+  <!-- ========================================================= -->
+  <!-- <header> is a semantic HTML5 tag used for introductory content and navigation -->
+  <header class="navbar">
+    <div class="nav-container">
+      <!-- Portfolio Logo / Name -->
+      <a href="#home" class="nav-logo">Gokul Bharani G</a>
+
+      <!-- Mobile Hamburger Button (visible on mobile screens) -->
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+
+      <!-- Navigation Links List -->
+      <!-- <nav> contains major navigation links -->
+      <nav>
+        <ul class="nav-menu" id="navMenu">
+          <li><a href="#home" class="nav-link">Home</a></li>
+          <li><a href="#about" class="nav-link">About Me</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#education" class="nav-link">Education</a></li>
+          <li><a href="#experience" class="nav-link">Experience</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ========================================================= -->
+  <!-- SECTION 1: HOME (HERO SECTION)                            -->
+  <!-- ========================================================= -->
+  <!-- <section> represents a standalone section of a document -->
+  <section id="home" class="hero-section">
+    <div class="container hero-container">
+      
+      <!-- Profile Photo Box -->
+      <div class="hero-image-wrapper">
+        <!-- <img> displays Gokul's profile photo -->
+        <img src="profile.jpg" alt="Gokul Bharani G - Profile Photo" class="profile-photo">
+      </div>
+
+      <!-- Hero Text Content -->
+      <div class="hero-content">
+        <p class="hero-greeting">Hello, I'm</p>
+        <h1 class="hero-name">Gokul Bharani G</h1>
+        <h2 class="hero-title">Computer Science Engineering Student</h2>
+        <p class="hero-description">
+          An enthusiastic fresher passionate about web technologies, software development, 
+          and problem-solving. Welcome to my personal portfolio website!
+        </p>
+
+        <!-- Call to Action Buttons -->
+        <div class="hero-buttons">
+          <a href="#contact" class="btn btn-primary">Get In Touch</a>
+          <a href="#projects" class="btn btn-secondary">View My Project</a>
+          <a href="gokul-portfolio.zip" download="gokul-portfolio.zip" class="btn btn-secondary">Download Code (.ZIP)</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========================================================= -->
+  <!-- SECTION 2: ABOUT ME                                       -->
+  <!-- ========================================================= -->
+  <section id="about" class="section">
+    <div class="container">
+      
+      <!-- Section Title -->
+      <h2 class="section-title">About Me</h2>
+      <div class="title-underline"></div>
+
+      <!-- About Grid Layout -->
+      <div class="about-grid">
+        
+        <!-- Career Objective Card -->
+        <div class="card about-card">
+          <h3 class="card-heading">Career Objective</h3>
+          <p class="about-text">
+            A motivated and enthusiastic Computer Science Engineering student seeking an entry-level position 
+            to enhance my technical skills, gain practical experience, and contribute effectively to organizational 
+            growth while continuously learning new technologies.
+          </p>
+        </div>
+
+        <!-- Personal Introduction Card -->
+        <div class="card about-card">
+          <h3 class="card-heading">Personal Introduction</h3>
+          <p class="about-text">
+            I am currently pursuing my Bachelor of Engineering in Computer Science and Engineering from Paavai Engineering 
+            College. Having completed my Diploma with 80%, I possess a strong foundation in programming concepts, web technologies, 
+            and hardware systems. I am eager to apply my analytical abilities and academic learning to build impactful real-world software solutions.
+          </p>
+        </div>
+
+      </div>
+
+      <!-- Additional Personal Highlights -->
+      <div class="about-highlights-grid">
+        
+        <!-- Areas of Interest -->
+        <div class="card highlight-card">
+          <h4 class="highlight-title">Areas of Interest</h4>
+          <ul class="highlight-list">
+            <li>Web Development</li>
+            <li>Machine Learning &amp; AI</li>
+            <li>Data Engineering &amp; Analytics</li>
+            <li>Data Science</li>
+          </ul>
+        </div>
+
+        <!-- Extra-Curricular Activities -->
+        <div class="card highlight-card">
+          <h4 class="highlight-title">Extra-Curricular Activities</h4>
+          <ul class="highlight-list">
+            <li>National Service Scheme (NSS)</li>
+            <li>Sports (Volleyball &amp; Cricket)</li>
+            <li>Typewriting</li>
+          </ul>
+        </div>
+
+        <!-- Location & Details -->
+        <div class="card highlight-card">
+          <h4 class="highlight-title">Quick Information</h4>
+          <ul class="highlight-list">
+            <li><strong>Degree:</strong> B.E. Computer Science</li>
+            <li><strong>Location:</strong> Virudhunagar, Tamil Nadu</li>
+            <li><strong>Availability:</strong> Ready for Entry-Level Roles</li>
+          </ul>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========================================================= -->
+  <!-- SECTION 3: SKILLS (TECHNICAL & SOFT SKILLS)                -->
+  <!-- ========================================================= -->
+  <section id="skills" class="section section-light">
+    <div class="container">
+      
+      <h2 class="section-title">Skills</h2>
+      <div class="title-underline"></div>
+
+      <div class="skills-wrapper">
+        
+        <!-- Subsection 3A: Technical Skills -->
+        <div class="skills-column">
+          <h3 class="skills-subtitle">Technical Skills</h3>
+          <p class="skills-note">Core programming languages and web technologies I work with:</p>
+
+          <div class="skills-list">
+            
+            <!-- Skill item: HTML -->
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="skill-name">HTML (HyperText Markup Language)</span>
+              </div>
+              <p class="skill-desc">Structuring accessible, semantic web pages with proper tags and forms.</p>
+            </div>
+
+            <!-- Skill item: CSS -->
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="skill-name">CSS (Cascading Style Sheets)</span>
+              </div>
+              <p class="skill-desc">Responsive layouts, Flexbox, CSS Grid, custom styling, and media queries.</p>
+            </div>
+
+            <!-- Skill item: JavaScript -->
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="skill-name">JavaScript (Vanilla JS)</span>
+              </div>
+              <p class="skill-desc">DOM manipulation, event listeners, form validation, and dynamic web functionality.</p>
+            </div>
+
+            <!-- Skill item: C Language -->
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="skill-name">C Programming</span>
+              </div>
+              <p class="skill-desc">Fundamental programming logic, data structures, pointers, and memory basics.</p>
+            </div>
+
+            <!-- Skill item: Java -->
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="skill-name">Java</span>
+              </div>
+              <p class="skill-desc">Object-Oriented Programming (OOP), classes, inheritance, and application logic.</p>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Subsection 3B: Soft Skills -->
+        <div class="skills-column">
+          <h3 class="skills-subtitle">Soft Skills</h3>
+          <p class="skills-note">Interpersonal and workplace competencies developed through teamwork and academics:</p>
+
+          <div class="soft-skills-grid">
+            
+            <div class="soft-skill-card">
+              <span class="soft-skill-number">01</span>
+              <h4>Creative Thinking</h4>
+              <p>Approaching technical problems with curiosity and exploring innovative ways to build intuitive solutions.</p>
+            </div>
+
+            <div class="soft-skill-card">
+              <span class="soft-skill-number">02</span>
+              <h4>Decision Making</h4>
+              <p>Evaluating options logically to make sound decisions under project timelines and academic goals.</p>
+            </div>
+
+            <div class="soft-skill-card">
+              <span class="soft-skill-number">03</span>
+              <h4>Leadership</h4>
+              <p>Taking initiative during group assignments, motivating team members, and ensuring task completion.</p>
+            </div>
+
+            <div class="soft-skill-card">
+              <span class="soft-skill-number">04</span>
+              <h4>Teamwork</h4>
+              <p>Collaborating effectively with peers, exchanging constructive feedback, and working toward shared targets.</p>
+            </div>
+
+            <div class="soft-skill-card">
+              <span class="soft-skill-number">05</span>
+              <h4>Adaptability</h4>
+              <p>Quickly adjusting to new technologies, engineering tools, and changing project requirements.</p>
+            </div>
+
+            <div class="soft-skill-card">
+              <span class="soft-skill-number">06</span>
+              <h4>Self Motivator</h4>
+              <p>Consistently pursuing self-learning, coding practice, and personal skill enhancement independently.</p>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========================================================= -->
+  <!-- SECTION 4: EDUCATION                                      -->
+  <!-- ========================================================= -->
+  <section id="education" class="section">
+    <div class="container">
+      
+      <h2 class="section-title">Educational Background</h2>
+      <div class="title-underline"></div>
+
+      <div class="education-timeline">
+        
+        <!-- Degree 1: B.E. CSE -->
+        <div class="education-card">
+          <div class="edu-badge">Undergraduate</div>
+          <h3 class="edu-degree">Bachelor of Engineering in Computer Science and Engineering</h3>
+          <h4 class="edu-institution">Paavai Engineering College</h4>
+          <div class="edu-meta">
+            <span class="edu-status">Status: Pursuing</span>
+            <span class="edu-score">CGPA: <strong>7.87</strong></span>
+          </div>
+          <p class="edu-details">
+            Focusing on computer science fundamentals, data structures, algorithm design, database management systems, 
+            and modern web development practices.
+          </p>
+        </div>
+
+        <!-- Degree 2: Diploma in CSE -->
+        <div class="education-card">
+          <div class="edu-badge">Diploma</div>
+          <h3 class="edu-degree">Diploma in Computer Science and Engineering</h3>
+          <h4 class="edu-institution">Virudhunagar S. Vellaichamy Nadar Polytechnic College</h4>
+          <div class="edu-meta">
+            <span class="edu-status">Year of Completion: 2025</span>
+            <span class="edu-score">Score: <strong>80%</strong></span>
+          </div>
+          <p class="edu-details">
+            Acquired strong practical and theoretical foundation in computer hardware, networking, programming in C and Java, 
+            and system administration.
+          </p>
+        </div>
+
+        <!-- Degree 3: SSLC -->
+        <div class="education-card">
+          <div class="edu-badge">School Education</div>
+          <h3 class="edu-degree">Secondary School Leaving Certificate (SSLC)</h3>
+          <h4 class="edu-institution">Kendriya Vidyalaya</h4>
+          <div class="edu-meta">
+            <span class="edu-status">Year of Completion: 2022</span>
+            <span class="edu-score">Score: <strong>60%</strong></span>
+          </div>
+          <p class="edu-details">
+            Completed standard secondary education with a focus on science, mathematics, and analytical reasoning.
+          </p>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========================================================= -->
+  <!-- SECTION 5: INTERNSHIP EXPERIENCE                          -->
+  <!-- ========================================================= -->
+  <section id="experience" class="section section-light">
+    <div class="container">
+      
+      <h2 class="section-title">Internship Experience</h2>
+      <div class="title-underline"></div>
+
+      <div class="experience-grid">
+        
+        <!-- Internship 1: Aaran Technology -->
+        <div class="card experience-card">
+          <div class="exp-header">
+            <div>
+              <h3 class="exp-role">Technical Intern – CCTV Systems</h3>
+              <h4 class="exp-company">Aaran Technology</h4>
+            </div>
+            <span class="exp-duration">08-06-2024 to 23-06-2024</span>
+          </div>
+          <div class="exp-body">
+            <p class="exp-desc">
+              Learned fundamental and practical concepts of CCTV surveillance technology, networking, and system configuration.
+            </p>
+            <ul class="exp-points">
+              <li>Studied IP camera configurations, DVR/NVR setup, and video transmission protocols.</li>
+              <li>Understood cabling, hardware troubleshooting, and surveillance infrastructure layout.</li>
+              <li>Assisted senior technicians in on-site maintenance and hardware inspection.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Internship 2: EduSkills -->
+        <div class="card experience-card">
+          <div class="exp-header">
+            <div>
+              <h3 class="exp-role">Java Full Stack Developer Intern</h3>
+              <h4 class="exp-company">EduSkills (Virtual Internship)</h4>
+            </div>
+            <span class="exp-duration">15-10-2025 to 25-12-2025</span>
+          </div>
+          <div class="exp-body">
+            <p class="exp-desc">
+              Completed intensive online technical training on full-stack web application development centered on Java technologies.
+            </p>
+            <ul class="exp-points">
+              <li>Trained in Core Java, OOP principles, exception handling, and collection frameworks.</li>
+              <li>Learned frontend integration with HTML, CSS, and basic JavaScript for web interfaces.</li>
+              <li>Gained foundational understanding of backend database connectivity and full-stack project flow.</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========================================================= -->
+  <!-- SECTION 6: PROJECTS                                       -->
+  <!-- ========================================================= -->
+  <section id="projects" class="section">
+    <div class="container">
+      
+      <h2 class="section-title">Projects</h2>
+      <div class="title-underline"></div>
+
+      <!-- Featured Project Card -->
+      <div class="project-card">
+        
+        <div class="project-content">
+          <div class="project-badge">Featured Academic Project</div>
+          <h3 class="project-title">Selfie Booth Application</h3>
+          <p class="project-tagline">
+            An interactive photo-capture setup designed for creative, customized digital snapshots.
+          </p>
+
+          <p class="project-description">
+            A selfie booth is a fun and interactive setup that allows people to capture creative and memorable photos. 
+            It integrates a camera setup, attractive backgrounds, good lighting, and a variety of fun digital props 
+            such as hats, glasses, masks, and signs. People can pose alone or with friends, choose different backgrounds 
+            or effects, and take unique pictures easily.
+          </p>
+
+          <!-- Key Features List -->
+          <div class="project-features">
+            <h4 class="features-heading">Key Highlights &amp; Features:</h4>
+            <ul>
+              <li><strong>Camera Integration:</strong> Direct webcam/camera access to preview and capture live photographs.</li>
+              <li><strong>Digital Props &amp; Frames:</strong> Overlay fun props such as glasses, hats, and customized frames onto photos.</li>
+              <li><strong>Background Selection:</strong> Allows users to pick creative backgrounds and visual photo effects.</li>
+              <li><strong>Instant Photo Preview:</strong> Enables users to review captured images immediately and save them locally.</li>
+            </ul>
+          </div>
+
+          <!-- Technologies Used Tags -->
+          <div class="project-tech">
+            <span class="tech-tag">HTML5</span>
+            <span class="tech-tag">CSS3</span>
+            <span class="tech-tag">JavaScript</span>
+            <span class="tech-tag">Webcam API</span>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========================================================= -->
+  <!-- SECTION 7: CONTACT                                        -->
+  <!-- ========================================================= -->
+  <section id="contact" class="section section-light">
+    <div class="container">
+      
+      <h2 class="section-title">Contact Me</h2>
+      <div class="title-underline"></div>
+
+      <div class="contact-grid">
+        
+        <!-- Contact Information Column -->
+        <div class="contact-info-panel">
+          <h3 class="contact-heading">Get in Touch</h3>
+          <p class="contact-subtext">
+            Feel free to reach out to me for entry-level engineering roles, technical internships, or academic collaboration. 
+            I look forward to connecting!
+          </p>
+
+          <!-- Contact Details List -->
+          <div class="contact-details">
+            
+            <div class="contact-item">
+              <span class="contact-label">Email:</span>
+              <a href="mailto:gokulbharani786@gmail.com" class="contact-link">gokulbharani786@gmail.com</a>
+            </div>
+
+            <div class="contact-item">
+              <span class="contact-label">Phone:</span>
+              <a href="tel:+919092981452" class="contact-link">+91 - 9092981452</a>
+            </div>
+
+            <div class="contact-item">
+              <span class="contact-label">Location:</span>
+              <span class="contact-text">Virudhunagar, Tamil Nadu, India</span>
+            </div>
+
+          </div>
+
+          <!-- Professional & Coding Profiles -->
+          <h4 class="profiles-heading">Coding &amp; Professional Profiles</h4>
+          <div class="profile-links">
+            
+            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="profile-badge">
+              <strong>LinkedIn:</strong> GOKULBHARANI_G
+            </a>
+
+            <a href="https://github.com/ggokulbharani" target="_blank" rel="noopener noreferrer" class="profile-badge">
+              <strong>GitHub:</strong> ggokulbharani
+            </a>
+
+            <a href="https://leetcode.com/u/G_Gokulbharni" target="_blank" rel="noopener noreferrer" class="profile-badge">
+              <strong>LeetCode:</strong> G_Gokulbharni
+            </a>
+
+          </div>
+        </div>
+
+        <!-- Contact Form Column -->
+        <div class="card contact-form-card">
+          <h3 class="card-heading">Send a Message</h3>
+          
+          <!-- Feedback message container (controlled by JavaScript) -->
+          <div id="formFeedback" class="form-feedback" style="display: none;"></div>
+
+          <!-- The Contact Form -->
+          <!-- <form> is used to collect user inputs -->
+          <form id="contactForm" novalidate>
+            
+            <div class="form-group">
+              <label for="userName">Full Name <span class="required">*</span></label>
+              <input type="text" id="userName" name="name" class="form-control" placeholder="Enter your full name" required>
+              <span class="error-msg" id="nameError"></span>
+            </div>
+
+            <div class="form-group">
+              <label for="userEmail">Email Address <span class="required">*</span></label>
+              <input type="email" id="userEmail" name="email" class="form-control" placeholder="name@example.com" required>
+              <span class="error-msg" id="emailError"></span>
+            </div>
+
+            <div class="form-group">
+              <label for="userSubject">Subject <span class="required">*</span></label>
+              <input type="text" id="userSubject" name="subject" class="form-control" placeholder="Subject of your message" required>
+              <span class="error-msg" id="subjectError"></span>
+            </div>
+
+            <div class="form-group">
+              <label for="userMessage">Message <span class="required">*</span></label>
+              <textarea id="userMessage" name="message" rows="5" class="form-control" placeholder="Write your message here..." required></textarea>
+              <span class="error-msg" id="messageError"></span>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+          </form>
+
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========================================================= -->
+  <!-- FOOTER                                                    -->
+  <!-- ========================================================= -->
+  <!-- <footer> contains copyright, site credits, and links -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <p class="footer-copy">
+        &copy; <span id="currentYear">2026</span> Gokul Bharani G. All Rights Reserved.
+      </p>
+      <p class="footer-note">
+        Designed with clean HTML, CSS &amp; Vanilla JavaScript.
+      </p>
+      <a href="#home" class="back-to-top">Back to Top &uarr;</a>
+    </div>
+  </footer>
+
+  <!-- Link to external JavaScript file -->
+  <script src="script.js"></script>
+</body>
+</html>
